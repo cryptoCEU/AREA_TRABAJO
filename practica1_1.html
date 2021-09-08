@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ejercicio estructura</title>
+<style>
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3px;
+  background-color: #000000;
+  padding: 2px;
+}
+
+.header {
+  background-color: #FFFFFF;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  padding: 15px 0;
+  font-size: 15px;
+}
+.nav {
+  background-color: #FFFFFF;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 200px 0;
+  font-size: 15px;
+}
+.article {
+  background-color: #FFFFFF;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 200px 0;
+  font-size: 15px;
+}
+.aside {
+  background-color: #FFFFFF;
+  text-align: center;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  padding: 200px 0;
+  font-size: 15px;
+}
+.footer {
+  background-color: #FFFFFF;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  padding: 15px 0;
+  font-size: 15px;
+}
+</style>
+</head>
+<body>
+
+<h1>practica 1.1</h1>
+<h2>ejercicio estructura</h2>
+
+<div class="grid-container">
+  <div class="header">header</div>
+  <div class="nav">nav</div>
+  <div class="article">article</div>
+  <div class="aside">aside</div>
+  <div class="footer">footer</div>
+</div>
+
+
+</body>
+</html>
