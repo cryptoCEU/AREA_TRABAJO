@@ -1,5 +1,5 @@
 # AREA_TRABAJO
-## Repositorio espefícico para la asignatura de Tecnoloogías Móviles y Web
+## Repositorio específico para la asignatura de Tecnologías Móviles y Web
 
 <br>José García Lega<br/>
 <br>Universidad San Pablo CEU<br/>
