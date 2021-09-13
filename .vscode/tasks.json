@@ -6,7 +6,7 @@
         "label": "Abrir en Brave",
   "command": "explorer",
         "windows": {
-          "command": "/Applications/Brave Browser.app"
+          "command": "/Applications/brave.exe"
         },
         "args": [
             "${file}"
